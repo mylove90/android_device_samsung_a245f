@@ -23,5 +23,13 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Boot Control HAL
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.2 \
+    android.hardware.boot@1.0-service
+
+PRODUCT_PACKAGES += \
+    bootctrl.mt6789
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
