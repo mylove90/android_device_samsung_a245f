@@ -17,3 +17,6 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
