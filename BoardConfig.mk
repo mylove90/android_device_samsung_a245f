@@ -117,6 +117,7 @@ PLATFORM_VERSION := 14
 TW_THEME := portrait_hdpi
 TW_DEVICE_VERSION := a245f
 TW_DEFAULT_BRIGHTNESS := 250
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_EXTRA_LANGUAGES := true
 # TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
